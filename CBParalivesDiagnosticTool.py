@@ -234,6 +234,9 @@ if Test_FilePathsFailed:
 # ----------------------------------SAVE FILES-------------------------------------------
 # ---------------------------------------------------------------------------------------
 
+
+#TODO: CHECK IF SAVE IS AN AUTOSAVE
+
 # Check for save files
 # Check save files are formatted correctly
 printchapter("Checking saves for required files")
