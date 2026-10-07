@@ -1,5 +1,3 @@
-https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
-
 # The Unofficial Paralives Diagnostic Tool
 
 **by Crispy Business**
@@ -8,6 +6,8 @@ A diagnostic tool for Paralives game files. This program reads your Paralives ga
 
 Download:
 https://github.com/CrispyBusinessPL/Unofficial-Paralives-Diagnostic-Tool/releases/latest
+
+https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 
 ## How to Use
 
