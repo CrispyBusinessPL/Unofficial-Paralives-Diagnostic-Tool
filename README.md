@@ -11,100 +11,62 @@ https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 
 ## How to Use
 
-1. Run `CBParalivesDiagnosticTool.exe` **or** `CBParalivesDiagnosticTool.py`.
-2. Review the generated report.
-3. If you would like more information or help fixing identified issues, post the report to the Paralives Discord.
+1. Run `CBParalivesDiagnosticTool.exe`.
+2. Review the report.
+3. If you would like more information or help fixing identified issues, post the generated text file to the Paralives Discord.
 
 ## Requirements
 
 * Paralives must be installed using Steam.
-* Python is required to use the `.py` script.
-* No Python installation is required when using the `.exe`.
+* No Python installation is required.
 
 ## Configuration
 
-The program optionally supports a `config.toml` file for overriding the default file paths.
+The program includes a `config.txt` file for overriding the default file paths and settings.
 
 ## How to Read the Log
 
-* Look for `[OK]` in the left column. This means no issues were identified.
-* Any other status indicates that a trivial-to-critical issue has been identified with reasonable confidence.
+* Look for `[OK]` or a green check mark in the left column. This means no issues were identified.
+* Any other status indicates that a issue has been identified with reasonable confidence.
 
 ## Changelog
 
-### 21 Sep 2026 — Version 1.0
+6 Oct 2026 - 1.9 Bug fixes
+- Missing optional folders no longer causes the program to end
+- Fixed a check for extra meta files
+- Fixed some formatting errors
+- Added basic check for installed plugins
+- Added shortcut button for game files (not yet configurable)
+- Added some translation improvements
 
-**Game folders and file paths**
+24 Sep 2026 - 1.8 Dark mode, translations, and a new configuration file
+- Added dark mode
+- Added some translations though still needs a lot of work (Deutsch, English, Espanol, Francais, Italiano, Polski, Portugues)
+- Fixed bugs
+- Improved application UI
+- Improved application configuration files
+- The default folder location for local mods and workshop mods can be now overriden as intended
+- Many of the changes made inside the application will now be saved to the configuration file
+- Restructured code to allow for more features in the future
 
-* Checks for required game folders and file paths:
+22 Sep 2026 - 1.5 GUI Update
+- Added a GUI
 
-  * Correct location
-  * Enabled status
-
-**Save files**
-
-* Lists all save files
-* Reports status
-
-**Local mods**
-
-* Lists all local mods
-* Reports status
-* Validates file structure
-* Identifies missing files
-* Checks whether mods are enabled
-
-**Workshop mods**
-
-* Lists all Workshop mods
-* Reports status
-* Validates file structure
-* Identifies missing files
-* Checks whether mods are enabled
-* Displays Steam ID
-
-**Complex Mod Errors**
-
-* Detects duplicate folders
-* Detects empty folders
-* Detects `.tmp` files
-
-**Folder Shortcuts**
-
-* Save folder
-* Workshop Mods folder
-* Local Mods folder
-* `Player.log`
-
-**Diagnostic Log**
-
-* Generates a log file containing all identified information
-* Log files use shortened file paths to help protect user privacy
-
-**Configuration File**
-
-* Local Mods folder can be configured
-* Workshop Mods folder can be configured
-
-## Potential Future Features
-
-* Improved problem diagnosis
-* Improved advice for fixing identified issues
-* Ability to fix some basic file issues:
-
-  * Move mods to the Local Mods folder
-  * Possibly create a collection and unsubscribe from Workshop mods
-  * Remove empty files and folders
-  * Option to purge the AppData folder
-  * Validate game files
-  * Unsubscribe from Workshop mods
+21 Sep 2026  1.0 Release
+- Checks for required game folders are in the correct location and are enabled
+- Checks save files and status
+- Checks local mods for required files
+- Lists all mods, status, validates file structure, missing files, and if enabled
+- Checks workshop mods for required files
+- Lists all mods, status, validates file structure, missing files, if enabled, and Steam ID
+- Checks for duplicate folders, empty folders, .tmp files
+- Creates Folder Shortcuts: Save Folder, Workshop Mods, Local Mods, Player.log
+- Generates a log file with all identified information (Log files have shortened file paths to protect privacy)
+- Configuration File: Local mod folder can be configured, Workshop mod folder can be configured
 
 ## Disclosure
 
 This program is **not affiliated with, endorsed by, or associated with Paralives Studio**.
-
 Use this program at your own risk. The author is not responsible for any damage, data loss, corrupted files, or other issues that may result from using this software.
-
 This software may not be resold, redistributed, or commercially repackaged without the author's explicit permission.
-
 **Copyright © 2026 Crispy Business. All rights reserved.**
