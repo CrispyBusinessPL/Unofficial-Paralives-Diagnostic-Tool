@@ -4,7 +4,7 @@
 
 A diagnostic tool for Paralives game files. This program reads your Paralives game files and displays diagnostic information. This program currently only provides a diagnosis and is not able to fix identified issues.
 
-Download:
+Latest release:
 https://github.com/CrispyBusinessPL/Unofficial-Paralives-Diagnostic-Tool/releases/latest
 
 ## Functions
