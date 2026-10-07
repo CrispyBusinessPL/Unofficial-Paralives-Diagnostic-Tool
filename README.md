@@ -7,8 +7,6 @@ A diagnostic tool for Paralives game files. This program reads your Paralives ga
 Download:
 https://github.com/CrispyBusinessPL/Unofficial-Paralives-Diagnostic-Tool/releases/latest
 
-https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
-
 ## Functions
 
 - Checks required game folders are in the correct location and are enabled.
@@ -20,6 +18,8 @@ https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 - Checks for duplicate folders, empty folders, and temporary files.
 - Creates folder shortcuts to the save folder, workshop mods folder, local Mods folder, and the Player.log.
 - Outputs a text file with gathered data for referencing later.
+
+https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 
 ## How to Use
 
