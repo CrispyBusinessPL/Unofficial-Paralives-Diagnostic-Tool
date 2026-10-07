@@ -11,9 +11,10 @@ https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 
 ## How to Use
 
-1. Run `CBParalivesDiagnosticTool.exe`.
-2. Review the report.
-3. If you would like more information or help fixing identified issues, post the generated text file to the Paralives Discord.
+1. Unzip the downloaded file.
+2. Run `CBParalivesDiagnosticTool.exe`.
+3. Review the generated report. A summary is also generated as text file each time the program is executed.
+4. If you would like more information or help fixing identified issues, post the generated text file to the Paralives Discord. https://discord.com/invite/paralives
 
 ## Requirements
 
@@ -67,6 +68,7 @@ The program includes a `config.txt` file for overriding the default file paths a
 ## Disclosure
 
 This program is **not affiliated with, endorsed by, or associated with Paralives Studio**.
+The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes.
 Use this program at your own risk. The author is not responsible for any damage, data loss, corrupted files, or other issues that may result from using this software.
 This software may not be resold, redistributed, or commercially repackaged without the author's explicit permission.
 **Copyright © 2026 Crispy Business. All rights reserved.**
