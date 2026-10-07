@@ -32,6 +32,22 @@ https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 * Look for `[OK]` or a green check mark in the left column. This means no issues were identified.
 * Any other status indicates that a issue has been identified with reasonable confidence.
 
+## Functions
+
+- Checks required game folders are in the correct location and are enabled.
+- Checks save files and status.
+- Checks local mods for required files.
+- Lists all mods, status, validates file structure, missing files, and if enabled.
+- Checks workshop mods for required files.
+- Lists all mods, status, validates file structure, missing files, if enabled, and Steam ID.
+- Checks for duplicate folders, empty folders, and temporary files.
+- Creates folder shortcuts to the save folder, workshop mods folder, local Mods folder, and the Player.log.
+- Outputs a text file with gathered data for referencing later.
+
+## Languages
+
+- Basic support for Deutsch, English, Espanol, Francais, Italiano, Polski, and Portugues.
+
 ## Changelog
 
 6 Oct 2026 - 1.9 Bug fixes
