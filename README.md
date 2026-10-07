@@ -2,7 +2,7 @@
 
 **by Crispy Business**
 
-A diagnostic tool for Paralives game files. This program reads your Paralives game files and displays diagnostic information. This program is currently only provides a diagnosis and is not able to fix identified issues.
+A diagnostic tool for Paralives game files. This program reads your Paralives game files and displays diagnostic information. This program currently only provides a diagnosis and is not able to fix identified issues.
 
 Download:
 https://github.com/CrispyBusinessPL/Unofficial-Paralives-Diagnostic-Tool/releases/latest
