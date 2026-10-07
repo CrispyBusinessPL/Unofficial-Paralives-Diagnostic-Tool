@@ -71,4 +71,4 @@ This program is **not affiliated with, endorsed by, or associated with Paralives
 The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes.
 Use this program at your own risk. The author is not responsible for any damage, data loss, corrupted files, or other issues that may result from using this software.
 This software may not be resold, redistributed, or commercially repackaged without the author's explicit permission.
-**Copyright © 2026 Crispy Business. All rights reserved.**
+**Copyright © 2026. All rights reserved.**
