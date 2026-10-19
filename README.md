@@ -2,7 +2,7 @@
 
 **by Crispy Business**
 
-A diagnostic tool for Paralives game files. This program reads your Paralives game files and displays diagnostic information. This program currently only provides a diagnosis and is not able to fix identified issues.
+A diagnostic tool for Paralives game files which reads your Paralives game files and displays diagnostic information.
 
 Latest release:
 https://github.com/CrispyBusinessPL/Unofficial-Paralives-Diagnostic-Tool/releases/latest
@@ -20,6 +20,12 @@ https://github.com/CrispyBusinessPL/Unofficial-Paralives-Diagnostic-Tool/release
 - Outputs a text file with gathered data for referencing later.
 
 https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
+
+## INSTALLATION:
+
+* No installation required.
+* Script can be run from any location.
+* Does not matter if the game is running or not.
 
 ## How to Use
 
@@ -49,6 +55,13 @@ https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 - Basic support for Deutsch, English, Espanol, Francais, Italiano, Polski, and Portugues.
 
 ## Changelog
+
+19 Oct 2026 - 2.0 Bug fixes
+- Added detection for alternate steam libraries
+- Added unity folder to exemption list
+- Added more text color
+- Added window size and position to saved configurations
+- Made some errors into clickable hyperlinks to the file path of the issue
 
 6 Oct 2026 - 1.9 Bug fixes
 - Missing optional folders no longer causes the program to end
