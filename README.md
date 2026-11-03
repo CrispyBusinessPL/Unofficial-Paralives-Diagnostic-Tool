@@ -56,6 +56,17 @@ https://github.com/user-attachments/assets/16dd508b-d090-4664-b6c8-88bbe7f448c7
 
 ## Changelog
 
+23 Oct 2026 v2.3 Duplicate and Missing GUID Checking
+- Added clickable hyperlinks for working workshop mods which opens Steam app if available else the web browser
+- Added check for duplicate guids
+- Added check for missing guids
+- Fixed bug with reading savefiles
+
+21 Oct 2026 - 2.2 GUI and Translation Improvements
+- Added interface handler to reduce visual glitches and allow translating without restarting the application
+- Added a more robust translation manager
+- Added translations for 日本語, 한국어, Español (Latinoamérica), Português (Brasil), Nederlands
+
 19 Oct 2026 - 2.0 Bug fixes
 - Added detection for alternate steam libraries
 - Added unity folder to exemption list
